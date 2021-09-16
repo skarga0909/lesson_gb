@@ -7,7 +7,7 @@ i = 1
 for i in range(len(bakery_list)):
     print('python add_sale.py ', bakery_list[i])
 
-num = input('Введите 2 числа через пробел: ')
+num = input('Введите чиcло (0 - вывести все значения; от 1 до 4 - вывести данные с указанного числа и до конца;\nдва числа через пробел - вывести элементы с первого по второй): ')
 num_1 = num.split()
 number = list(num_1)
 
